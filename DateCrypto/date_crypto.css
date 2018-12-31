@@ -1,0 +1,64 @@
+body {
+  background-color: lightblue;
+}
+
+#numbers {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+
+}
+
+.number {
+  height: 25%;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: purple;
+  border-radius: 35px;
+  width: 12%;
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+  padding: 5%;
+  margin-top: 5%;
+}
+
+.number:hover {
+  border: 2px solid white;
+}
+.number:active {
+  background-color: #54256E;
+}
+
+.number-selected {
+  background-color: #54256E;
+  border: 2px solid white;
+}
+
+
+
+#operations {
+  display: flex;
+  justify-content: space-around;
+  flex: 3;
+}
+
+#operations * {
+  flex: 1;
+  margin: 40px;
+  height: 2em;
+  font-weight: 700;
+  font-size: 100px;
+}
+
+.error {
+  color: red;
+  font-size: 24px;
+  text-align: center;
+}
+
+.operation-selected {
+  background-color: green;
+  border: 2px solid gold;
+}
